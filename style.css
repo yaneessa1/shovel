@@ -31,17 +31,28 @@ nav a {
 }
 
 main {
-  display: flex; /* Використання Flexbox для розташування */
+  display: flex;
+  /* Використання Flexbox для розташування */
   margin: 1rem;
+  flex: 1;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  /* Висота 100% вікна браузера */
 }
 
 section {
-  flex: 3; /* Основна частина */
+  flex: 3;
+  /* Основна частина */
   margin-right: 1rem;
 }
 
 aside {
-  flex: 1; /* Бічна панель */
+  flex: 1;
+  /* Бічна панель */
   background-color: #f9f9f9;
   padding: 1rem;
   border: 1px solid #ccc;
