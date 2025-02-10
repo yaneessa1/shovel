@@ -6,8 +6,8 @@ body {
 }
 
 header {
-  background-color: #333;
-  color: yellow;
+  background-color: #fbd0d0;
+  color: #ff6f96;
   padding: 1rem;
 }
 
@@ -16,7 +16,7 @@ header h1 {
 }
 
 nav ul {
-  list-style: none;
+  list-style: #f9688d;
   padding-left: 0;
 }
 
@@ -26,41 +26,30 @@ nav li {
 }
 
 nav a {
-  color: #fff;
+  color:#ed4d8b ;
   text-decoration: none;
 }
 
 main {
-  display: flex;
-  /* Використання Flexbox для розташування */
+  display: flex; /* Використання Flexbox для розташування */
   margin: 1rem;
-  flex: 1;
-}
-
-.wrapper {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  /* Висота 100% вікна браузера */
 }
 
 section {
-  flex: 3;
-  /* Основна частина */
+  flex: 3; /* Основна частина */
   margin-right: 1rem;
 }
 
 aside {
-  flex: 1;
-  /* Бічна панель */
+  flex: 1; /* Бічна панель */
   background-color: #f9f9f9;
   padding: 1rem;
   border: 1px solid #ccc;
 }
 
 footer {
-  background-color: #333;
-  color: #fff;
+  background-color: #fbd0d0;
+  color:#f3a8bb;
   text-align: center;
   padding: 1rem;
   margin-top: 1rem;
